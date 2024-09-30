@@ -5,7 +5,7 @@ FROM openjdk:17-jdk-slim
 WORKDIR /app
 
 # Copiar el archivo JAR generado al contenedor
-COPY target/SpringBootEcommerce-0.0.1-SNAPSHOT.jar app.jar
+COPY target/ecommerce-backend-0.0.1-SNAPSHOT.jar app.jar
 
 # Exponer el puerto en el que la aplicación escuchará
 EXPOSE 8080
